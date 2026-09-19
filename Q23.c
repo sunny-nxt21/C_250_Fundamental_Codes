@@ -1,4 +1,5 @@
 // Write a C program to calculate gross salary.
+
 #include<stdio.h>
 int main()
 {
