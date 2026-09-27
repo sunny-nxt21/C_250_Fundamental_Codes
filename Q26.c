@@ -14,7 +14,7 @@ int main()
         printf("This number is even %d", number);
     }
 
-    else if(number % 2 == 1)
+    else
     {
         printf("This number is odd");
     }

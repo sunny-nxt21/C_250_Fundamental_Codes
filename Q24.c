@@ -8,7 +8,7 @@ int main()
     float per_unit_cost;
     per_unit_cost = 7.25;
 
-    printf("total unit = ", total_unit);
+    printf("total unit = ");
     scanf("%d", &total_unit);
 
     net_bill = (total_unit * per_unit_cost);
