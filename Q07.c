@@ -4,10 +4,8 @@
 int main()
 {
     int a = 50;
-    int b = 7;
-    float divition;
-
-    divition = (float) a/b;
-    printf("Finally the result of division = %.2f\n", divition);
+    int b = 5;
+    float divition = (float) a/b;
+    printf("Finally the result of division = %.2f", divition);
     return 0;
 }
