@@ -1,0 +1,1 @@
+// Write a C program to find the GCD of two numbers.

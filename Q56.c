@@ -1,7 +1,7 @@
 // Write a C program to find the sum of all odd numbers from 1 to N.
 
 #include<stdio.h>
-int main()
+int main() 
 {
     int n;
     int sum = 0;

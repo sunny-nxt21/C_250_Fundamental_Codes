@@ -1,0 +1,1 @@
+// Write a C program to print all prime numbers from 1 to N and count number.

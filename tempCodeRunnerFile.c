@@ -1,16 +1,24 @@
-// Write a C program to calculate the factorial of a number.
+// Write a C program to check whether a number is prime.
 
 #include<stdio.h>
 int main()
 {
     int n;
-    int factorial = 1;
     scanf("%d", &n);
+    int only_1;
 
-    for(int i = 1; i <= n; i ++)
+    int i = 2;
+    while (i < n)
     {
-        factorial = factorial * i;
-        printf("%d\n", factorial);
+        if (n%i == 1)
+        {
+            printf("Prime");
+        }
+        else if (n%i != 1)
+        {
+            printf("Not Prime;");
+        }
+        i++;
     }
     return 0;
 }
