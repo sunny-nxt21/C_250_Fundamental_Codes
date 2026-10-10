@@ -1,5 +1,4 @@
 // Write a C program to check whether a number is a palindrome.
-
 #include<stdio.h>
 int main()
 {
@@ -8,7 +7,6 @@ int main()
     int real = n;
     int reminder;
     int number = 0;
-
     while(n != 0)
     {
         reminder = n%10;
