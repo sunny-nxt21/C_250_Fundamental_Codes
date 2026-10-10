@@ -1,21 +1,18 @@
-// Write a C program to generate Fibonacci series.
+// Write a C program to find the power of a number using a loop.
 
 #include<stdio.h>
 int main()
 {
-    int n;
-    scanf("%d", &n);
+    int base, power;
+    scanf("%d %d", &base, &power);
 
-    int n1,n2,n3;
-    scanf("%d %d", &n1, &n2);
-
-    for (int i=1; i<=n; i++)
+    int result = 1;
+    
+    for(int i = 1; i <= power; i++)
     {
-        n3 = n1+n2;
+        result = result * base;
 
-        printf("%d",n3);
-        n1 = n2;
-        n2 = n3;
     }
+    printf("%d", result);
     return 0;
 }
