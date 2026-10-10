@@ -5,21 +5,23 @@ int main()
 {
     int n;
     scanf("%d", &n);
-    int only_1;
+    int flag = 0;
 
-    int i = 2;
-    while (i < n)
+    for(int i=2; i<n; i++)
     {
-        if (n%i == 1)
+        if (n%i == 0)
         {
-            printf("Prime");
-        }
-        else if (n%i != 1)
-        {
-            printf("Not Prime;");
+            flag = 1;
             break;
         }
-        i++;
+    }
+    if (flag == 0)
+    {
+        printf("Prime");
+    }
+    else
+    {
+        printf("Not Prime");
     }
     return 0;
 }
